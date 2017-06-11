@@ -293,6 +293,8 @@ public class MainActivity extends AppCompatActivity implements IWordButtonClickL
                     //开始新一关
                     mPassView.setVisibility(View.GONE);
 
+                    mCurrentCoins +=3;
+
                     //加载关卡数据
                     initCurrentStageData();
                 }

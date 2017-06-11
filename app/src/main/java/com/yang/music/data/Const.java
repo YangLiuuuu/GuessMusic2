@@ -6,7 +6,7 @@ package com.yang.music.data;
 
 public class Const {
 
-    public static final int TOTAL_COINS = 50;
+    public static final int TOTAL_COINS = 300;
 
     public static final String SONG_INFO[][] = {
             {"一剪梅.mp3","一剪梅"},
