@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/index_background"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!--topbar-->
+        <include layout="@layout/top_bar"/>
+        <!--pan-->
+        <include layout="@layout/pan_layout"/>
+        <!--文字框-->
+        <include layout="@layout/name_select"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/float_buttons"/>
+
+    <!--答案正确界面-->
+    <include layout="@layout/answer_right"/>
+
+</FrameLayout>

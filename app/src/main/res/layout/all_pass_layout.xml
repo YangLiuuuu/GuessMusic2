@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a12626">
+    <include layout="@layout/pass_top_bar"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/allpass_back0">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="顺利过关"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#e23a02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="评论我们 + 50 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@mipmap/game_coin_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/allpass_back1">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/all_pass_wechat_share_btn_icon" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/allpass_back1">
+        <TextView
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2efd00"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="更多奖励、活动和挑\n关注微信：疯狂游戏\n更多关卡，敬请期待\n关注我们—>"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/all_pass_connect_btn_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+</LinearLayout>
